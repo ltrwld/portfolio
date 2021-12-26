@@ -7,16 +7,17 @@
         v-for="project in $page.projects.edges"
         :key="project.node.id"
       >
+      <ProjectMeta
+          :title="project.node.title"
+          :categories="project.node.categories"
+          :year="project.node.year"
+        />
         <g-image
           class="project-thumbnail"
           :src="project.node.thumbnail.src"
           :alt="project.node.title"
         ></g-image>
-        <ProjectMeta
-          :title="project.node.title"
-          :categories="project.node.categories"
-          :year="project.node.year"
-        />
+        
       </article>
     </section>
   </Layout>
@@ -71,7 +72,7 @@ export default {
 
 <style lang="scss" scoped>
 .projects {
-  margin: 0 2rem;
+  
 }
 .project {
   width: 100%;
