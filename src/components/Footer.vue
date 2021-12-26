@@ -54,17 +54,7 @@ export default {
 </script>
 
 <style lang="scss">
-.footer {
-  position: fixed;
-  bottom: 2rem;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2rem;
-  z-index: 100;
-  mix-blend-mode: difference;
-}
+
 .to-top {
   transform: rotate(-90deg);
   user-select: none;
