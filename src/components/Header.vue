@@ -3,7 +3,8 @@
     <g-link
       to="/"
       tag="h1"
-      class="logo"
+      class="name"
+      :class="{ first: data.first_letter_only }"
     >
      
 
@@ -83,7 +84,37 @@ export default {
     opacity: 0;
   }
 }
-
+.name {
+  font-size: 1rem;
+  font-weight: 500;
+  user-select: none;
+  margin: 0;
+  cursor: pointer;
+  .word {
+    margin-right: 0.5rem;
+    &.first-line {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+  &.first {
+    .letter {
+      transition: opacity 0.15s ease;
+      opacity: 0;
+    }
+    .first-letter {
+      opacity: 1;
+    }
+    &:hover {
+      .letter {
+        opacity: 1;
+      }
+    }
+  }
+}
 
 .st0 {
   fill:#FFFFFF;
