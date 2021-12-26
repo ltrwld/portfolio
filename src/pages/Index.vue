@@ -71,11 +71,12 @@ export default {
 }
 .project {
   width: 100%;
+  height: 0;
+  padding: 50%;
   border-radius: 15px;
   margin-bottom: 4rem;
   cursor: pointer;
   background-size: cover;
   background-position: center;
-  box-shadow: rgb(0 0 0 / 40%) 0px 10px 20px;
 }
 </style>
