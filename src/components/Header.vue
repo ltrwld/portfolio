@@ -55,7 +55,7 @@ export default {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 4rem 2rem 5rem 2rem;
   letter-spacing: 0.05em;
   z-index: 100;
