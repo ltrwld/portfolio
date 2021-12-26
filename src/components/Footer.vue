@@ -1,6 +1,12 @@
 <template>
   <footer class="footer" id="custom-footer">
-    <div class="to-top" @click="scrollTopTop">-></div>
+    <div class="to-top logo" @click="scrollTopTop"> 
+    
+    
+    
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 10.5" xml:space="preserve"><defs></defs><path d="M12.3,9.5H5.3C2.9,9.5,1,7.6,1,5.3V1h7.1c2.3,0,4.3,1.9,4.3,4.3V9.5z" class="st0"></path></svg>
+
+ </div>
     <div class="social">
       <a
         class="channel"
@@ -14,11 +20,7 @@
 
 
   
-  <a class="logo" href="http://www.google.c" target="_blank">
-    
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 10.5" xml:space="preserve"><defs></defs><path d="M12.3,9.5H5.3C2.9,9.5,1,7.6,1,5.3V1h7.1c2.3,0,4.3,1.9,4.3,4.3V9.5z" class="st0"></path></svg>
-
-  </a>
+ 
   <div class="links">
     <a href="#">Terms & Conditions</a>
     <a href="#">Contact</a>
@@ -96,11 +98,11 @@ export default {
   color: #888;
   font-size: 14px;
 }
-#custom-footer .logo {
+footer .logo {
   max-width: 150px;
   display: inline-block;
 }
-#custom-footer .logo svg {
+footer .logo svg {
   max-width: 100%;
     width: 20px;
     stroke: #fff;
