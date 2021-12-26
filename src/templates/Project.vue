@@ -57,6 +57,7 @@ export default {
 img {
   width: 100% !important;
   margin-bottom: 2rem;
+  border-radius: 10px;
 }
 p {
   margin: 0;
