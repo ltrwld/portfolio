@@ -61,7 +61,6 @@ export default {
   letter-spacing: 0.05em;
   z-index: 100;
   opacity: 1;
-  mix-blend-mode: difference;
   transition: opacity 0.5s ease;
   &.hidden {
     opacity: 0;
