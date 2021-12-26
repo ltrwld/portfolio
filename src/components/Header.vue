@@ -24,13 +24,7 @@
     
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="92.3px"
 	 height="10.5px" viewBox="0 0 92.3 10.5" style="overflow:visible;enable-background:new 0 0 92.3 10.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#3FB288;}
-	.st2{fill:none;stroke:#3FB288;stroke-width:2;stroke-miterlimit:10;}
-</style>
-<defs>
-</defs>
+
 <g>
 	<path class="st0" d="M16.8,0.2h1.8v10.1h-1.8V0.2z"/>
 	<path class="st0" d="M27.6,3.2v7.1h-1.8V9.5c-0.6,0.6-1.4,1-2.3,1c-2,0-3.5-1.6-3.5-3.7C20,4.6,21.5,3,23.5,3c1,0,1.8,0.4,2.3,1
@@ -53,6 +47,7 @@
 	<path class="st2" d="M12.3,9.5H5.3C2.9,9.5,1,7.6,1,5.3V1h7.1c2.3,0,4.3,1.9,4.3,4.3V9.5z"/>
 </g>
 </svg>
+
 
 
 
@@ -133,4 +128,17 @@ export default {
     }
   }
 }
+
+.st0 {
+  fill:#FFFFFF;
+  }
+.st1 {
+  fill:#3FB288;
+  }
+.st2 {
+  fill:none;
+  stroke:#3FB288;
+  stroke-width:2;
+  stroke-miterlimit:10;
+  }
 </style>
