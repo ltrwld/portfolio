@@ -71,7 +71,10 @@ export default {
 }
 .project {
   width: 100%;
+  border-radius: 15px;
   margin-bottom: 4rem;
   cursor: pointer;
+  background-size: cover;
+  background-position: center;
 }
 </style>
