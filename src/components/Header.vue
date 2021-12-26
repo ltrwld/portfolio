@@ -1,25 +1,7 @@
 <template>
   <header class="header">
-    <g-link
-      to="/"
-      tag="h1"
-      class="name"
-      :class="{ first: data.first_letter_only }"
-    >
-      <span
-        class="word"
-        :class="{ 'first-line': index === 0 && multiLine }"
-        v-for="(word, index) in siteName"
-        :key="index"
-      >
-        <span class="first-letter" v-if="data.first_letter_only && word[0]">{{
-          word[0]
-        }}</span>
-        <span class="letter" v-if="data.first_letter_only">{{
-          word.slice(1)
-        }}</span>
-        <span v-if="!data.first_letter_only">{{ word }}</span>
-
+ 
+     
 
     
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="92.3px"
@@ -52,8 +34,8 @@
 
 
 
-      </span>
-    </g-link>
+    
+  
     <div class="contact">
       <a class="link" :href="`mailto:${data.email}`">say hi !</a>
     </div>
@@ -97,37 +79,7 @@ export default {
     opacity: 0;
   }
 }
-.name {
-  font-size: 1rem;
-  font-weight: 500;
-  user-select: none;
-  margin: 0;
-  cursor: pointer;
-  .word {
-    margin-right: 0.5rem;
-    &.first-line {
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-    &:last-of-type {
-      margin: 0;
-    }
-  }
-  &.first {
-    .letter {
-      transition: opacity 0.15s ease;
-      opacity: 0;
-    }
-    .first-letter {
-      opacity: 1;
-    }
-    &:hover {
-      .letter {
-        opacity: 1;
-      }
-    }
-  }
-}
+
 
 .st0 {
   fill:#FFFFFF;
