@@ -15,7 +15,17 @@
 
   
   <a class="logo" href="http://www.google.c" target="_blank">
-    <img src="https://s3.amazonaws.com/f.cl.ly/items/0a32453Q1V1j3n1j0E2c/acmelogo.png?v=097c22e4" alt="Acme API Co. Logo">
+    
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13.3px"
+	 height="10.5px" viewBox="0 0 13.3 10.5" style="overflow:visible;enable-background:new 0 0 13.3 10.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#3FB288;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<defs>
+</defs>
+<path class="st0" d="M12.3,9.5H5.3C2.9,9.5,1,7.6,1,5.3V1h7.1c2.3,0,4.3,1.9,4.3,4.3V9.5z"/>
+</svg>
+
   </a>
   <div class="links">
     <a href="#">Terms & Conditions</a>
@@ -55,9 +65,6 @@ export default {
 
 <style lang="scss">
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -130,19 +137,7 @@ body {
   margin: 6px 0;
 }
 
-#custom-header {
-  background-color: #fff;
-  padding: 24px 40px 23px;
-  position: relative;
-  border-bottom: 1px solid #e0e0e0;
-}
-#custom-header .logo-container {
-  float: left;
-  max-width: 325px;
-}
-#custom-header .logo-container img {
-  max-width: 100%;
-}
+
 #custom-header nav {
   float: right;
 }
@@ -171,52 +166,7 @@ body {
     top: 8px;
   }
 }
-@media screen and (max-width: 900px) {
-  #custom-header {
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 18px;
-  }
-  #custom-header .logo-container {
-    float: none;
-    display: block;
-    margin-bottom: 18px;
-    max-width: none;
-  }
-  #custom-header .logo-container .logo {
-    max-width: 325px;
-    display: inline-block;
-  }
-  #custom-header nav {
-    float: none;
-  }
-  #custom-header nav > a, #custom-header .updates-dropdown-container {
-    float: none;
-  }
-}
-@media screen and (max-width: 475px) {
-  #custom-header nav > a {
-    margin-right: 20px;
-  }
-  #custom-header nav > a, #custom-header nav .show-updates-dropdown {
-    font-size: 13px;
-  }
-  #custom-header .logo-container .logo {
-    max-width: 70%;
-  }
-  #custom-header nav > a:nth-child(1):before {
-    content: none;
-  }
-}
 
-.page-content {
-  text-align: center;
-  font-size: 30px;
-  color: #d7d7d7;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
 
 #custom-footer {
   padding: 20px 40px;
@@ -228,7 +178,7 @@ body {
   max-width: 150px;
   display: inline-block;
 }
-#custom-footer .logo img {
+#custom-footer .logo svg {
   max-width: 100%;
 }
 #custom-footer > div {
