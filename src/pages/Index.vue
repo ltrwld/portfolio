@@ -81,5 +81,6 @@ export default {
 .project-thumbnail {
   display: block;
   width: 100%;
+  border-radius: 10px;
 }
 </style>
