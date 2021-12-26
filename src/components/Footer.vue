@@ -24,13 +24,7 @@
     <a href="#">Contact</a>
     <a href="#">Support</a>
   </div>
-  <div class="meta">
-    <!-- the colored dot gets an extra class and description text gets inserted via javascript -->
-    <a href="http://acmeapico.statuspage.io" target="_blank">
-      <span class="color-dot"></span>
-      <span class="color-description"></span>
-    </a>
-  </div>
+  
 
   </footer>
 </template>
@@ -97,74 +91,10 @@ export default {
 
 
 
-
-
-.color-dot {
-  -moz-border-radius: 99px;
-  -webkit-border-radius: 99px;
-  border-radius: 99px;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-right: 5px;
-}
-.color-dot.critical {
-  background-color: #e74c3c;
-}
-.color-dot.major {
-  background-color: #e67e22;
-}
-.color-dot.minor {
-  background-color: #f1c40f;
-}
-.color-dot.none {
-  background-color: #2ecc71;
-}
-
-body {
-  background-color: #f8f8f8;
-}
-
-.dropdown-menu .divider {
-  margin: 6px 0;
-}
-
-
-#custom-header nav {
-  float: right;
-}
-#custom-header nav > a {
-  margin-right: 30px;
-}
-#custom-header nav > a, #custom-header nav .show-dropdown {
-  color: #FFF;
-  display: inline-block;
-  font-weight: 500;
-  color: #AFAFAF;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-#custom-header nav .dropdown {
-  display: inline-block;
-}
-#custom-header .dropdown-menu {
-  right: 0px;
-  left: auto;
-}
-@media screen and (min-width: 900px) {
-  #custom-header nav {
-    position: relative;
-    top: 8px;
-  }
-}
-
-
 #custom-footer {
   padding: 20px 40px;
   color: #888;
   font-size: 14px;
-  background-color: #333434;
 }
 #custom-footer .logo {
   max-width: 150px;
@@ -181,12 +111,7 @@ body {
   position: relative;
   top: 2px;
 }
-#custom-footer .meta {
-  float: right;
-}
-#custom-footer .meta a {
-  color: #888;
-}
+
 #custom-footer .links {
   float: right;
   margin-left: 30px;
