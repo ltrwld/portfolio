@@ -72,6 +72,7 @@ export default {
 .project {
   width: 100%;
   height: 0;
+  position: relative;
   padding: 50%;
   border-radius: 15px;
   margin-bottom: 4rem;
