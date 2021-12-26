@@ -1,6 +1,6 @@
 <template>
   <Layout :title="$page.project.title">
-    <article class="project-post" v-bind:style="{ 'background-image': 'url(' $page.project.thumbnail ')' }">
+    <article class="project-post" :style="{ backgroundImage: `url($page.project.thumbnail)` }">
       <g-image
         class="thumnail"
         :src="$page.project.thumbnail"
