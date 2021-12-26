@@ -18,3 +18,4 @@ fields:
     use_select: false
 pages:
 - projects/cabaret.md
+- projects/pro-3.md
