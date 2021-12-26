@@ -57,7 +57,6 @@ export default {
   justify-content: space-between;
   align-items: flex-end;
   padding: 4rem 2rem 5rem 2rem;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   z-index: 100;
   opacity: 1;
