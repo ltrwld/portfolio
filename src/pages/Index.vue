@@ -72,7 +72,7 @@ export default {
 
 <style lang="scss" scoped>
 .projects {
-  
+  margin: 0 2rem;
 }
 .project {
   width: 100%;
