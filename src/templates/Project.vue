@@ -1,6 +1,6 @@
 <template>
   <Layout :title="$page.project.title">
-    <article class="project-post" style="background: url(/assets/static/img_2132.24a76c4.f04b237dd190c6ea1dec8977b601b696.jpg)">
+    <article class="project-post">
       <g-image
         class="thumnail"
         :src="$page.project.thumbnail"
