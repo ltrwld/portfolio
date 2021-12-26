@@ -6,6 +6,7 @@
         class="project"
         v-for="project in $page.projects.edges"
         :key="project.node.id"
+        v-bind:style="{ 'background-image': 'url(' + project.node.thumbnail.src + ')' }"
       >
         <g-image
           class="project-thumbnail"
