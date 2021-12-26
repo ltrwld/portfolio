@@ -8,11 +8,6 @@
         :key="project.node.id"
         v-bind:style="{ 'background-image': 'url(' + project.node.thumbnail.src + ')' }"
       >
-        <g-image
-          class="project-thumbnail"
-          :src="project.node.thumbnail.src"
-          :alt="project.node.title"
-        ></g-image>
         <ProjectMeta
           :title="project.node.title"
           :categories="project.node.categories"
@@ -78,9 +73,5 @@ export default {
   width: 100%;
   margin-bottom: 4rem;
   cursor: pointer;
-}
-.project-thumbnail {
-  display: block;
-  width: 100%;
 }
 </style>
