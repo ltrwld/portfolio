@@ -25,7 +25,7 @@
     
     </g-link>
     <div class="contact">
-      <a class="link" :href="`mailto:${data.email}`">Sag' Hallo !</a>
+      <a class="link" :href="`mailto:${data.email}`">Sag' Hallo</a>
     </div>
   </header>
 </template>
@@ -96,6 +96,12 @@ export default {
       }
     }
   }
+}
+.contact {
+    padding: 5px 10px;
+    border: 2px solid;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .st0 {
