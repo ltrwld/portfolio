@@ -6,8 +6,12 @@
         class="project"
         v-for="project in $page.projects.edges"
         :key="project.node.id"
-        v-bind:style="{ 'background-image': 'url(' + project.node.thumbnail.src + ')' }"
       >
+        <g-image
+          class="project-thumbnail"
+          :src="project.node.thumbnail.src"
+          :alt="project.node.title"
+        ></g-image>
         <ProjectMeta
           :title="project.node.title"
           :categories="project.node.categories"
@@ -71,13 +75,11 @@ export default {
 }
 .project {
   width: 100%;
-  height: 0;
-  position: relative;
-  padding: 50%;
-  border-radius: 15px;
   margin-bottom: 4rem;
   cursor: pointer;
-  background-size: cover;
-  background-position: center;
+}
+.project-thumbnail {
+  display: block;
+  width: 100%;
 }
 </style>
