@@ -2,17 +2,12 @@
   "site_name": "lauterwald",
   "header_title": "Lauterwald Portfolio",
   "first_letter_only": true,
-  "email": "nichlas@itsnwa.com",
+  "email": "tim@lauterwald.net",
   "social": [
     {
-      "channel": "twitter",
-      "handle": "nichlaswa",
-      "link_text": "tw"
-    },
-    {
-      "channel": "instagram",
-      "handle": "its.nwa",
-      "link_text": "ig"
+      "channel": "Vimeo",
+      "handle": "https://vimeo.com/lauterwald",
+      "link_text": "Vimeo"
     },
     {
       "channel": "github",
