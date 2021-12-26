@@ -1,6 +1,10 @@
 <template>
   <header class="header">
- 
+    <g-link
+      to="/"
+      tag="h1"
+      class="logo"
+    >
      
 
     
@@ -35,7 +39,7 @@
 
 
     
-  
+    </g-link>
     <div class="contact">
       <a class="link" :href="`mailto:${data.email}`">say hi !</a>
     </div>
