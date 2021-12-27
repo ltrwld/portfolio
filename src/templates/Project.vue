@@ -1,60 +1,32 @@
 <template>
   <Layout :title="$page.project.title">
-    <article class="project-post">
-      <g-image
-        class="thumnail"
-        :src="$page.project.thumbnail"
-        :alt="$page.project.title"
-      />
-      <ProjectMeta
-        :title="$page.project.title"
-        :categories="$page.project.categories"
-        :year="$page.project.year"
-      />
-      <div class="content" v-html="$page.project.content" />
-    </article>
-
-
-
-
-
-
-
-
-
 
 
 <div class="job-explain">
-      <img class="job-bg" alt="" src="https://unsplash.it/640/425?image=1" style="background: rgb(46, 40, 130);">
-      <div class="job-logos"><svg viewBox="0 -13 512 512" xmlns="http://www.w3.org/2000/svg" style="background-color:#2e2882">
+  <g-image
+        class="job-bg"
+        :src="$page.project.thumbnail"
+        :alt="$page.project.title"
+      />
+  <div class="job-logos">
+    <svg viewBox="0 -13 512 512" xmlns="http://www.w3.org/2000/svg" style="background-color:#2e2882">
         <g fill="#feb0a5">
          <path d="M256 92.5l127.7 91.6L512 92 383.7 0 256 91.5 128.3 0 0 92l128.3 92zm0 0M256 275.9l-127.7-91.5L0 276.4l128.3 92L256 277l127.7 91.5 128.3-92-128.3-92zm0 0"></path>
          <path d="M127.7 394.1l128.4 92 128.3-92-128.3-92zm0 0"></path>
         </g>
         <path d="M512 92L383.7 0 256 91.5v1l127.7 91.6zm0 0M512 276.4l-128.3-92L256 275.9v1l127.7 91.5zm0 0M256 486.1l128.4-92-128.3-92zm0 0" fill="#feb0a5"></path>
-       </svg></div>
-      <div class="job-explain-content">
-      <div class="job-title-wrapper">
+    </svg>
+  </div>
+  <div class="job-explain-content">
+    
 
        <ProjectMeta
-        :title="$page.project.title"
-      />
-       
-       <div class="job-action">
-        <svg class="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M20.8 4.6a5.5 5.5 0 00-7.7 0l-1.1 1-1-1a5.5 5.5 0 00-7.8 7.8l1 1 7.8 7.8 7.8-7.7 1-1.1a5.5 5.5 0 000-7.8z"></path></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"></path></svg>
-       </div>
-       </div>
-       
-
-        <ProjectMeta
         :title="$page.project.title"
         :categories="$page.project.categories"
         :year="$page.project.year"
       />
-
        
+      
        
        <div class="overview-text">
         <div class="overview-text-header">Overview</div>
