@@ -1,4 +1,6 @@
 <template>
+  <div>
+
   <div class="job-title-wrapper">
     <div class="job-card-title">{{ title }}</div>
     <div class="job-action">
@@ -11,7 +13,7 @@
     <div class="company-name">Patreon <span class="comp-location">Londontowne, MD.</span></div>
     <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
   </div>
-  
+
   <div class="explain-bar">
     <div class="explain-contents">
       <div class="explain-title">Experience</div>
@@ -29,6 +31,8 @@
       <div class="explain-title">Offer Salary</div>
       <div class="explain-subtitle">$2150.0 / Month</div>
     </div>
+  </div>
+
   </div>
 
 </template>
@@ -52,7 +56,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 .job-card-title{font-weight:600;margin-top:16px;font-size:14px;}
 .job-explain{background-color:var(--header-bg-color);border-radius:0 0 8px 8px;}
 .job-bg{border-radius:8px 8px 0 0;-o-object-fit:cover;object-fit:cover;width:100%;height:180px;transition:0.3s;position:relative;}
