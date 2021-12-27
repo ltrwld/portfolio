@@ -46,33 +46,16 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"></path></svg>
        </div>
        </div>
-       <div class="job-subtitle-wrapper">
+       
 
         <ProjectMeta
         :title="$page.project.title"
         :categories="$page.project.categories"
         :year="$page.project.year"
       />
-      
-       </div>
-       <div class="explain-bar">
-        <div class="explain-contents">
-        <div class="explain-title">Experience</div>
-        <div class="explain-subtitle">Minimum 1 Year</div>
-         </div>
-        <div class="explain-contents">
-        <div class="explain-title">Work Level</div>
-        <div class="explain-subtitle">Senior level</div>
-         </div>
-        <div class="explain-contents">
-        <div class="explain-title">Employee Type</div>
-        <div class="explain-subtitle">Full Time Jobs</div>
-         </div>
-        <div class="explain-contents">
-        <div class="explain-title">Offer Salary</div>
-        <div class="explain-subtitle">$2150.0 / Month</div>
-         </div>
-       </div>
+
+       
+       
        <div class="overview-text">
         <div class="overview-text-header">Overview</div>
         <div class="overview-text-subheader">We believe that design (and you) will be critical to the company's success. You will work with our founders and our early customers to help define and build our product functionality, while maintaining the quality bar that customers have come to expect from modern SaaS applications. You have a strong background in product design with a quantitavely anf qualitatively analytical mindset. You will also have the opportunity to craft our overall product and visual identity and should be comfortable to flex into working.</div>
