@@ -6,11 +6,6 @@
         :src="$page.project.thumbnail"
         :alt="$page.project.title"
       />
-      <ProjectMeta
-        :title="$page.project.title"
-        :categories="$page.project.categories"
-        :year="$page.project.year"
-      />
       
     </article>
 
@@ -39,6 +34,8 @@
        <ProjectMeta
         class="job-explain-content"
         :title="$page.project.title"
+        :categories="$page.project.categories"
+        :year="$page.project.year
       />
        
        
