@@ -2,6 +2,11 @@
 label: Project
 hide_body: false
 fields:
+- name: customer
+  type: text
+  config:
+    required: false
+  label: customer
 - type: text
   name: title
   label: title
