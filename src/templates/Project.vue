@@ -7,7 +7,7 @@
         :alt="$page.project.title"
       />
       
-    </article>
+  
 
 
 
@@ -46,7 +46,7 @@
       
 </div>
 
-
+  </article>
 
   </Layout>
 </template>
