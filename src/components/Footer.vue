@@ -66,7 +66,7 @@ export default {
 
 
 #custom-footer {
-  padding: 20px 40px;
+  padding: 10px 30px 25px;
   color: #888;
   font-size: 14px;
 }
