@@ -12,11 +12,6 @@
           :src="project.node.thumbnail.src"
           :alt="project.node.title"
         ></g-image>
-        <ProjectMeta
-          :title="project.node.title"
-          :categories="project.node.categories"
-          :year="project.node.year"
-        />
       </article>
     </section>
   </Layout>
