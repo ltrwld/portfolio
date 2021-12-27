@@ -77,7 +77,7 @@ export default {
 }
 #custom-footer .logo svg {
   height: 100%;
-  stroke: #fff;
+  stroke: #bbb;
   padding: 3px;
   fill: none;
   stroke-width: 2;
