@@ -79,6 +79,7 @@ export default {
   height: 100%;
   stroke: #bbb;
   padding: 3px;
+  cursor: pointer;
   fill: none;
   stroke-width: 2;
 }
