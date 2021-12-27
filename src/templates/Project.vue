@@ -6,8 +6,13 @@
         :src="$page.project.thumbnail"
         :alt="$page.project.title"
       />
+      <ProjectMeta
+        :title="$page.project.title"
+        :categories="$page.project.categories"
+        :year="$page.project.year"
+      />
       
-  
+    </article>
 
 
 
@@ -28,25 +33,55 @@
         </g>
         <path d="M512 92L383.7 0 256 91.5v1l127.7 91.6zm0 0M512 276.4l-128.3-92L256 275.9v1l127.7 91.5zm0 0M256 486.1l128.4-92-128.3-92zm0 0" fill="#feb0a5"></path>
        </svg></div>
-      
-      
+      <div class="job-explain-content">
+      <div class="job-title-wrapper">
 
        <ProjectMeta
-        class="job-explain-content"
         :title="$page.project.title"
-        :categories="$page.project.categories"
-        :year="$page.project.year
       />
        
        
-      
-      
-     
-       
-      
-</div>
+       </div>
+       <div class="job-subtitle-wrapper">
+        <div class="company-name">Patreon <span class="comp-location">Londontowne, MD.</span></div>
+        <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
+       </div>
+       <div class="explain-bar">
+        <div class="explain-contents">
+        <div class="explain-title">Experience</div>
+        <div class="explain-subtitle">Minimum 1 Year</div>
+         </div>
+        <div class="explain-contents">
+        <div class="explain-title">Work Level</div>
+        <div class="explain-subtitle">Senior level</div>
+         </div>
+        <div class="explain-contents">
+        <div class="explain-title">Employee Type</div>
+        <div class="explain-subtitle">Full Time Jobs</div>
+         </div>
+        <div class="explain-contents">
+        <div class="explain-title">Offer Salary</div>
+        <div class="explain-subtitle">$2150.0 / Month</div>
+         </div>
+       </div>
+       <div class="overview-text">
+        <div class="overview-text-header">Overview</div>
+        <div class="content"/>
+        <div class="overview-text-subheader" v-html="$page.project.content"></div>
+       </div>
+       <div class="overview-text">
+        <div class="overview-text-header">Job Description</div>
+        <div class="overview-text-item">3+ years working as a product designer.</div>
+        <div class="overview-text-item">A portfolio that highlights your approach to problem solving, as well as you skills in UI.</div>
+        <div class="overview-text-item">Experience conducting research and building out smooth flows.</div>
+        <div class="overview-text-item">Excellent communication skills with a well-defined design process.</div>
+        <div class="overview-text-item">Familiarity with design tools like Sketch and Figma</div>
+        <div class="overview-text-item">Up-level our overall design and bring consistency to end-user facing properties</div>
+       </div>
+      </div>
+     </div>
 
-  </article>
+
 
   </Layout>
 </template>
@@ -97,7 +132,17 @@ img {
 p {
   margin: 0;
 }
-
+.content-text {
+  padding: 4rem 0 6rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 0;
+  max-width: 780px;
+  line-height: 1.5;
+  @media (min-width: 920px) {
+    margin-left: 40%;
+  }
+}
 
 
 
@@ -153,12 +198,7 @@ p {
 .overview-text{margin-top:30px;}
 .overview-text-header{font-weight:600;margin-bottom:25px;}
 .overview-text-subheader{font-size:13px;line-height:2em;}
-.overview-text-item {
-  font-size:13px;
-  position:relative;
-  display:flex;
-  align-items: center;
-}
+.overview-text-item{font-size:13px;position:relative;display:flex;}
 .overview-text-item + .overview-text-item{margin-top:20px;}
 .overview-text-item:before{content:"";border:2px solid #61bcff;border-radius:50%;height:8px;width:8px;margin-right:8px;flex-shrink:0;}
 @media screen and (max-width: 990px){
