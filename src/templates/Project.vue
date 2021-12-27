@@ -165,22 +165,15 @@ p {
 
 
 
-
-
-
-/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css */
-img{border-style:none;}
-svg:not(:root){overflow:hidden;}
-/*! CSS Used from: Embedded */
-*{outline:none;box-sizing:border-box;}
-::-moz-placeholder{color:var(--placeholder-color);}
-:-ms-input-placeholder{color:var(--placeholder-color);}
-::placeholder{color:var(--placeholder-color);}
-img{max-width:100%;}
 .job-card-title{font-weight:600;margin-top:16px;font-size:14px;}
-.job-explain{background-color:var(--header-bg-color);margin-left:40px;border-radius:0 0 8px 8px;}
+.job-explain{background-color:var(--header-bg-color);border-radius:0 0 8px 8px;}
 .job-bg{border-radius:8px 8px 0 0;-o-object-fit:cover;object-fit:cover;width:100%;height:180px;transition:0.3s;position:relative;}
-.job-logos{margin-top:-30px;position:relative;margin-bottom:-36px;padding:0 20px;}
+.job-logos {
+    margin-top: -50px;
+    position: relative;
+    margin-bottom: -36px;
+    padding: 0 20px;
+}
 .job-logos svg{width:66px;padding:12px;background-color:#fff;border-radius:10px;border:4px solid var(--header-bg-color);}
 .job-title-wrapper{display:flex;align-items:center;}
 .job-title-wrapper .job-card-title{font-size:20px;margin-top:0;font-weight:600;}
