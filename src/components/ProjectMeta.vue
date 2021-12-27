@@ -1,5 +1,8 @@
 <template>
   <div class="job-card-title">{{ title }}</div>
+
+  <div class="explain-subtitle" :datetime="year">{{ year }}</div>
+  
   <section class="project-meta">
     <h2 class="project-title">{{ title }}</h2>
     <ul class="project-categories">
