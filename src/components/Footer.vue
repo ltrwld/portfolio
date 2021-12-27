@@ -75,6 +75,13 @@ export default {
   position: relative;
   top: 2px;
 }
+#custom-footer .logo svg {
+  height: 100%;
+  stroke: #fff;
+  padding: 3px;
+  fill: none;
+  stroke-width: 2;
+}
 
 #custom-footer .links {
   float: right;
