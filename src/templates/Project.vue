@@ -52,8 +52,10 @@
        </div>
        <div class="explain-bar">
         <div class="explain-contents">
-        <div class="explain-title">Experience</div>
-        <div class="explain-subtitle">Minimum 1 Year</div>
+        <div class="explain-title">Zeitraum</div>
+          <ProjectMeta
+            :year="$page.project.year"
+          />
          </div>
         <div class="explain-contents">
         <div class="explain-title">Work Level</div>
