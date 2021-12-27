@@ -10,11 +10,10 @@
         {{ category }}
       </li>
     </ul>
-    <time class="project-year" :datetime="year">{{ year }}</time>
+    <div class="company-name">Patreon <span class="comp-location">{{ title }}, MD.</span></div>
+    <time class="posted" :datetime="year">Posted {{ year }} <span class="app-number">{{ title }}</span></time>
   </section>
 
-  <div class="company-name">Patreon <span class="comp-location">{{ title }}, MD.</span></div>
-  <div class="posted">Posted 8 days ago<span class="app-number">{{ title }}</span></div>
 </template>
 
 <script>
