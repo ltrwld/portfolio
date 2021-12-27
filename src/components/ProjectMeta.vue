@@ -1,5 +1,5 @@
 <template>
-  <section class="project-meta">
+  <section class="project-meta transfer-section">
     <h2 class="project-title">{{ title }}</h2>
     <ul class="project-categories">
       <li
@@ -11,11 +11,11 @@
       </li>
     </ul>
     <time class="project-year" :datetime="year">{{ year }}</time>
-  </section>
 
 
 
-  <section class="transfer-section">
+
+  
 				<div class="transfer-section-header">
 					<h2>Latest transfers</h2>
 					<div class="filter-options">
