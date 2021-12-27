@@ -73,7 +73,7 @@
         <div class="overview-text-subheader" v-html="$page.project.content"></div>
        </div>
        <div class="overview-text">
-        <div class="overview-text-header">Job Description</div>
+        <div class="overview-text-header">Aufgaben</div>
         <div class="overview-text-item">3+ years working as a product designer.</div>
         <div class="overview-text-item">A portfolio that highlights your approach to problem solving, as well as you skills in UI.</div>
         <div class="overview-text-item">Experience conducting research and building out smooth flows.</div>
@@ -191,7 +191,12 @@ p {
 .overview-text{margin-top:30px;}
 .overview-text-header{font-weight:600;margin-bottom:25px;}
 .overview-text-subheader{font-size:13px;line-height:2em;}
-.overview-text-item{font-size:13px;position:relative;display:flex;}
+.overview-text-item {
+  font-size:13px;
+  position:relative;
+  display:flex;
+  align-items: center;
+}
 .overview-text-item + .overview-text-item{margin-top:20px;}
 .overview-text-item:before{content:"";border:2px solid #61bcff;border-radius:50%;height:8px;width:8px;margin-right:8px;flex-shrink:0;}
 @media screen and (max-width: 990px){
