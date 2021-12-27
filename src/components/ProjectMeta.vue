@@ -89,9 +89,7 @@ export default {
 .overview-text{margin-top:30px;}
 .overview-text-header{font-weight:600;margin-bottom:25px;}
 .overview-text-subheader{font-size:13px;line-height:2em;}
-.overview-text-item{font-size:13px;position:relative;display:flex;}
 .overview-text-item + .overview-text-item{margin-top:20px;}
-.overview-text-item:before{content:"";border:2px solid #61bcff;border-radius:50%;height:8px;width:8px;margin-right:8px;flex-shrink:0;}
 @media screen and (max-width: 990px){
 .explain-contents,.explain-bar{height:auto;}
 .explain-bar{flex-wrap:wrap;padding-bottom:14px;}
