@@ -55,7 +55,7 @@
         <div class="explain-title">Experience</div>
         <ProjectMeta
           class="explain-subtitle"
-          :title="$page.project.title"
+          :year="$page.project.year"
         />
          </div>
         <div class="explain-contents">
