@@ -16,5 +16,10 @@ fields:
   label: categories
   config:
     use_select: false
+- name: customer
+  type: text
+  config:
+    required: false
+  label: customer
 pages:
 - projects/cabaret.md
