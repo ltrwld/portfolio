@@ -97,36 +97,7 @@ export default {
 #custom-footer .links a:first-of-type {
   margin-left: 0px;
 }
-@media screen and (max-width: 880px) {
-  #custom-footer {
-    overflow: hidden;
-  }
-  #custom-footer > div {
-    top: 0px;
-  }
-  #custom-footer .links {
-    margin-left: 0px;
-  }
-  #custom-footer .meta {
-    float: left;
-  }
-  #custom-footer .logo {
-    display: none;
-  }
-}
-@media screen and (max-width: 600px) {
-  #custom-footer {
-    text-align: center;
-    font-size: 13px;
-    line-height: 20px;
-  }
-  #custom-footer .meta, #custom-footer .links {
-    float: none;
-  }
-  #custom-footer .links {
-    margin-bottom: 5px;
-  }
-}
+
 
 
 </style>
