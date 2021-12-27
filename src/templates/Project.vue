@@ -11,7 +11,7 @@
         :categories="$page.project.categories"
         :year="$page.project.year"
       />
-      <div class="content" v-html="$page.project.content" />
+      
     </article>
 
 
@@ -70,7 +70,7 @@
        </div>
        <div class="overview-text">
         <div class="overview-text-header">Overview</div>
-        <div class="overview-text-subheader">We believe that design (and you) will be critical to the company's success. You will work with our founders and our early customers to help define and build our product functionality, while maintaining the quality bar that customers have come to expect from modern SaaS applications. You have a strong background in product design with a quantitavely anf qualitatively analytical mindset. You will also have the opportunity to craft our overall product and visual identity and should be comfortable to flex into working.</div>
+        <div class="overview-text-subheader" v-html="$page.project.content"></div>
        </div>
        <div class="overview-text">
         <div class="overview-text-header">Job Description</div>
