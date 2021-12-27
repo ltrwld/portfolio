@@ -1,8 +1,4 @@
 <template>
-  <div class="job-card-title">{{ title }}</div>
-
-  <div class="explain-subtitle" :datetime="year">{{ year }}</div>
-  
   <section class="project-meta">
     <h2 class="project-title">{{ title }}</h2>
     <ul class="project-categories">
@@ -16,6 +12,9 @@
     </ul>
     <time class="project-year" :datetime="year">{{ year }}</time>
   </section>
+
+  <div class="company-name">Patreon <span class="comp-location">Londontowne, MD.</span></div>
+  <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
 </template>
 
 <script>
@@ -40,6 +39,7 @@ export default {
 <style lang="scss" scoped>
 .project-meta {
   display: flex;
+  padding: 4rem 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 1.5;
