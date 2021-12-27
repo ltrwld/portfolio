@@ -11,7 +11,7 @@
         :categories="$page.project.categories"
         :year="$page.project.year"
       />
-      
+      <div class="content" v-html="$page.project.content" />
     </article>
 
 
@@ -47,16 +47,18 @@
        </div>
        </div>
        <div class="job-subtitle-wrapper">
-        <div class="company-name">Patreon <span class="comp-location">Londontowne, MD.</span></div>
-        <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
+
+        <ProjectMeta
+        :title="$page.project.title"
+        :categories="$page.project.categories"
+        :year="$page.project.year"
+      />
+      
        </div>
        <div class="explain-bar">
         <div class="explain-contents">
         <div class="explain-title">Experience</div>
-        <ProjectMeta
-          class="explain-subtitle"
-          :year="$page.project.year"
-        />
+        <div class="explain-subtitle">Minimum 1 Year</div>
          </div>
         <div class="explain-contents">
         <div class="explain-title">Work Level</div>
@@ -73,8 +75,7 @@
        </div>
        <div class="overview-text">
         <div class="overview-text-header">Overview</div>
-        <div class="content"/>
-        <div class="overview-text-subheader" v-html="$page.project.content"></div>
+        <div class="overview-text-subheader">We believe that design (and you) will be critical to the company's success. You will work with our founders and our early customers to help define and build our product functionality, while maintaining the quality bar that customers have come to expect from modern SaaS applications. You have a strong background in product design with a quantitavely anf qualitatively analytical mindset. You will also have the opportunity to craft our overall product and visual identity and should be comfortable to flex into working.</div>
        </div>
        <div class="overview-text">
         <div class="overview-text-header">Job Description</div>
