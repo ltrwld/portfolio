@@ -67,6 +67,7 @@ export default {
 
 #custom-footer {
   padding: 10px 30px 25px;
+  background: linear-gradient(#0000, #00000040);
   color: #888;
   font-size: 14px;
 }
