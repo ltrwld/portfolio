@@ -1,5 +1,7 @@
 <template>
   <div class="job-card-title">{{ title }}</div>
+
+  <div class="explain-subtitle">{{ year }}</div>
   
     <ul class="project-categories">
       <li
@@ -10,8 +12,7 @@
         {{ category }}
       </li>
     </ul>
-    <time class="project-year" :datetime="year">{{ year }}</time>
-  
+   
 </template>
 
 <script>
