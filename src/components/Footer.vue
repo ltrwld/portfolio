@@ -1,6 +1,12 @@
 <template>
   <footer class="footer" id="custom-footer">
-   
+    <div class="logo" @click="scrollTopTop"> 
+    
+    
+    
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 10.5" xml:space="preserve"><defs></defs><path d="M12.3,9.5H5.3C2.9,9.5,1,7.6,1,5.3V1h7.1c2.3,0,4.3,1.9,4.3,4.3V9.5z" class="st0"></path></svg>
+
+ </div>
     <div class="links">
       <a
         v-for="(social, index) in data.social"
@@ -10,6 +16,10 @@
         {{ social.link_text }}
       </a>
     </div>
+
+
+  
+
   
 
   </footer>
@@ -23,6 +33,14 @@ export default {
     return {
       data
     };
+  },
+  methods: {
+    scrollTopTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
   }
 };
 </script>
@@ -35,6 +53,10 @@ export default {
   padding: 0 2rem;
   z-index: 100;
 }
+
+
+
+
 
 
 
@@ -63,7 +85,9 @@ export default {
   display: inline-block;
   margin-left: 20px;
 }
-
+#custom-footer .links a:hover {
+  color: #ddd;
+}
 #custom-footer .links a:first-of-type {
   margin-left: 0px;
 }
@@ -77,6 +101,12 @@ export default {
   #custom-footer .links {
     margin-left: 0px;
   }
+  #custom-footer .meta {
+    float: left;
+  }
+  #custom-footer .logo {
+    display: none;
+  }
 }
 @media screen and (max-width: 600px) {
   #custom-footer {
@@ -84,12 +114,16 @@ export default {
     font-size: 13px;
     line-height: 20px;
   }
-  #custom-footer .links {
+  #custom-footer .meta, #custom-footer .links {
     float: none;
   }
   #custom-footer .links {
     margin-bottom: 5px;
   }
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 </style>
