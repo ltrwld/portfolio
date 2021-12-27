@@ -13,8 +13,8 @@
     <time class="project-year" :datetime="year">{{ year }}</time>
   </section>
 
-  <div class="company-name">Patreon <span class="comp-location">Londontowne, MD.</span></div>
-  <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
+  <div class="company-name">Patreon <span class="comp-location">{{ title }}, MD.</span></div>
+  <div class="posted">Posted 8 days ago<span class="app-number">{{ title }}</span></div>
 </template>
 
 <script>
