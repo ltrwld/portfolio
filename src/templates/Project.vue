@@ -20,11 +20,7 @@
   <div class="job-explain-content">
     
 
-       <ProjectMeta
-        :title="$page.project.title"
-        :categories="$page.project.categories"
-        :year="$page.project.year"
-      />
+       <ProjectMeta/>
        
       
        
@@ -82,7 +78,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="css">
 .project-post {
   padding: 0 2rem;
   margin-bottom: 8rem;
