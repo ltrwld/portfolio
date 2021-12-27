@@ -85,9 +85,7 @@ export default {
   display: inline-block;
   margin-left: 20px;
 }
-#custom-footer .links a:hover {
-  color: #ddd;
-}
+
 #custom-footer .links a:first-of-type {
   margin-left: 0px;
 }
@@ -122,8 +120,5 @@ export default {
   }
 }
 
-a:hover {
-  text-decoration: none;
-}
 
 </style>
