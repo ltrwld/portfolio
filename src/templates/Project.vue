@@ -20,7 +20,11 @@
   <div class="job-explain-content">
     
 
-       <ProjectMeta/>
+       <ProjectMeta
+        :title="$page.project.title"
+        :categories="$page.project.categories"
+        :year="$page.project.year"
+       />
        
       
        
