@@ -7,11 +7,7 @@
         v-for="project in $page.projects.edges"
         :key="project.node.id"
       >
-      <ProjectMeta
-          :title="project.node.title"
-          :categories="project.node.categories"
-          :year="project.node.year"
-        />
+      
         <g-image
           class="project-thumbnail"
           :src="project.node.thumbnail.src"
@@ -31,9 +27,7 @@ query Projects {
         id
         path
         title
-        year
         thumbnail
-        categories
       }
     }
   }
