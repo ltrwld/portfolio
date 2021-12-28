@@ -5,7 +5,7 @@ year: 2019-2022
 categories:
 - camera operator
 customer: Anhaltisches Theater
-location: Dessau-Roßlau
+location: Dessau-Roßlau, Germany
 
 ---
 **_Musical in zwei Akten  
