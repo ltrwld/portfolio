@@ -40,6 +40,10 @@
 <script>
 export default {
   props: {
+    location: {
+      type: String,
+      required: false
+    },
     title: {
       type: String,
       required: false
