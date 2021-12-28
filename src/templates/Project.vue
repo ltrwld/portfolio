@@ -21,6 +21,7 @@
     
 
        <ProjectMeta
+        :customer="$page.project.customer"
         :location="$page.project.location"
         :title="$page.project.title"
         :categories="$page.project.categories"
@@ -53,6 +54,7 @@
 <page-query>
 query Project ($path: String!) {
   project: project(path: $path) {
+    customer
     location
     title
     thumbnail
