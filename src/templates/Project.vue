@@ -21,6 +21,7 @@
     
 
        <ProjectMeta
+        :location="$page.project.location"
         :title="$page.project.title"
         :categories="$page.project.categories"
         :year="$page.project.year"
