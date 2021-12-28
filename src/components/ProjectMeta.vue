@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="job-subtitle-wrapper">
-    <div class="company-name">{{ customer }} <a :href="'https://www.google.com/maps/place/${location}'" class="comp-location"></a></div>
+    <div class="company-name">{{ customer }} <span class="comp-location"></span></div>
     <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
   </div>
 
