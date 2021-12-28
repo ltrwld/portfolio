@@ -1,7 +1,7 @@
 ---
 title: Cabaret
 thumbnail: "../static/uploads/img_2132.jpg"
-year: 2020-2022
+year: 2019-2022
 categories:
 - camera operator
 customer: Anhaltisches Theater
