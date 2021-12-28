@@ -85,7 +85,9 @@ export default {
 .job-subtitle-wrapper .posted{margin-left:auto;}
 .job-subtitle-wrapper .company-name{color:var(--active-color);font-weight:600;font-size:14px;}
 .job-subtitle-wrapper .comp-location,.job-subtitle-wrapper .posted{color:var(--subtitle-color);font-size:12px;font-weight:500;}
-.job-subtitle-wrapper .comp-location{position:relative;margin-left:10px;}
+.job-subtitle-wrapper .comp-location {
+  position:relative;
+  display: block;}
 .job-subtitle-wrapper .comp-location:before{content:"";width:3px;height:3px;border-radius:50%;background-color:var(--placeholder-color);top:49%;left:-8px;position:absolute;}
 .job-subtitle-wrapper .app-number{color:var(--body-color);position:relative;margin-left:12px;}
 .job-subtitle-wrapper .app-number:before{content:"";width:3px;height:3px;border-radius:50%;background-color:var(--placeholder-color);top:50%;left:-7px;position:absolute;}
