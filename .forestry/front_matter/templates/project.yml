@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: customer
+- name: location
+  type: text
+  config:
+    required: false
+  label: location
 - type: text
   name: title
   label: title
