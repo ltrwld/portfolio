@@ -81,7 +81,16 @@ export default {
 .job-subtitle-wrapper .comp-location:before{content:"";width:3px;height:3px;border-radius:50%;background-color:var(--placeholder-color);top:49%;left:-8px;position:absolute;}
 .job-subtitle-wrapper .app-number{color:var(--body-color);position:relative;margin-left:12px;}
 .job-subtitle-wrapper .app-number:before{content:"";width:3px;height:3px;border-radius:50%;background-color:var(--placeholder-color);top:50%;left:-7px;position:absolute;}
-.explain-bar{margin-top:20px;border:1px solid #26262f;border-radius:8px;display:flex;height:66px;padding:0 16px;align-items:center;justify-content:space-between;}
+.explain-bar {
+  margin-top:20px;
+  border:1px solid #fff;
+  border-radius:8px;
+  display:flex;
+  height:66px;
+  padding:0 16px;
+  align-items:center;
+  justify-content:space-between;
+}
 .explain-title{color:var(--subtitle-color);font-size:12px;line-height:40px;white-space:nowrap;}
 .explain-subtitle{font-size:13px;font-weight:500;margin-top:-2px;white-space:nowrap;}
 .explain-contents{height:66px;}
