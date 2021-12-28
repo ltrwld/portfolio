@@ -53,6 +53,7 @@
 <page-query>
 query Project ($path: String!) {
   project: project(path: $path) {
+    location
     title
     thumbnail
     year
