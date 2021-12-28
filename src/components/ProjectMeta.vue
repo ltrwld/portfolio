@@ -87,7 +87,7 @@ export default {
 .job-subtitle-wrapper .comp-location,.job-subtitle-wrapper .posted{color:var(--subtitle-color);font-size:12px;font-weight:500;}
 .job-subtitle-wrapper .comp-location {
   position:relative;
-  display: block;}
+  margin-left:10px;}
 .job-subtitle-wrapper .comp-location:before{content:"";width:3px;height:3px;border-radius:50%;background-color:var(--placeholder-color);top:49%;left:-8px;position:absolute;}
 .job-subtitle-wrapper .app-number{color:var(--body-color);position:relative;margin-left:12px;}
 .job-subtitle-wrapper .app-number:before{content:"";width:3px;height:3px;border-radius:50%;background-color:var(--placeholder-color);top:50%;left:-7px;position:absolute;}
@@ -113,6 +113,9 @@ export default {
 .explain-contents,.explain-bar{height:auto;}
 .explain-bar{flex-wrap:wrap;padding-bottom:14px;}
 .explain-contents{width:50%;}
+.job-subtitle-wrapper .comp-location {
+  margin-left: 0;
+  display: block;}
 .explain-contents + .explain-contents{padding:0;border:0;}
 .explain-contents:nth-child(2) ~ .explain-contents{margin-top:16px;border-top:1px solid var(--border-color);}
 .job-subtitle-wrapper{flex-direction:column;align-items:flex-start;}
