@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="job-subtitle-wrapper">
-    <div class="company-name">Patreon <span class="comp-location">{{ location }}</span></div>
+    <div class="company-name">Patreon <a href="https://www.google.com/maps/place/{{ location }}" class="comp-location">{{ location }}</a></div>
     <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
   </div>
 
