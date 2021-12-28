@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="job-subtitle-wrapper">
-    <div class="company-name">Patreon <span class="comp-location">Londontowne, MD.</span></div>
+    <div class="company-name">Patreon <span class="comp-location">{{ location }}</span></div>
     <div class="posted">Posted 8 days ago<span class="app-number">98 Application</span></div>
   </div>
 
